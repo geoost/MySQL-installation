@@ -1,6 +1,6 @@
 # MySQL-installation
 
-<img src='https://github.com/geoost/MySQL-installation/blob/main/images/size/300x300/mysql_logo.png'>
+<img src='https://github.com/geoost/MySQL-installation/blob/main/images/mysql_logo.png'>
 
 MySQL is one of the most popular open-source relational database management systems in the world, known for its robustness, performance, and scalability. It is widely used to store and manage data for a variety of applications, from small personal projects to large-scale enterprise systems. To harness the power of MySQL, you need to install it on your system. This installation process involves setting up the MySQL server, configuring it, and ensuring that it's ready to store, manage, and serve data efficiently.
 
