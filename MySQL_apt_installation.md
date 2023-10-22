@@ -13,7 +13,7 @@ To check the latest repositories [Click here](https://dev.mysql.com/downloads/re
 
 ### After executing the command the result will be 
 
-<img src='https://github.com/geoopensource/MySQL-installation-/blob/main/images/wget.png'>
+<img src='https://github.com/geoost/MySQL-installation/blob/main/images/wget.png'>
 
 
 ## Step 2: Install  MySQL 8 APT Repositories
@@ -23,7 +23,7 @@ To check the latest repositories [Click here](https://dev.mysql.com/downloads/re
     dpkg -i mysql-apt-config_0.8.26-1_all.deb
 
 ### After executing the command the system will launch a configuration tool. It will present options to select the MySQL version that need to be install 
-<img src='https://github.com/geoopensource/MySQL-installation-/blob/main/images/package%20configuration.png'>
+<img src='https://github.com/geoost/MySQL-installation/blob/main/images/package%20configuration.png'>
 
 Leave the configuration setting to the default and click **Ok**
 
@@ -35,17 +35,17 @@ In the terminal, enter the following:
 
     sudo apt-get update
 
-<img src='https://github.com/geoopensource/MySQL-installation-/blob/main/images/apt_update.png'>
+<img src='https://github.com/geoost/MySQL-installation/blob/main/images/apt_update.png'>
 
 ## Step 4: Install MySQL 
 
 To install MySQL, enter the following:
 
     sudo apt-get install mysql-server
-<img src='https://github.com/geoopensource/MySQL-installation-/blob/main/images/apt-get_install_mysql-server.png'>
+<img src='https://github.com/geoost/MySQL-installation/blob/main/images/apt-get_install_mysql-server.png'>
 
 ### After executing the system will launch a tool to set the password to the **root** user.
-<img src='https://github.com/geoopensource/MySQL-installation-/blob/main/images/password%20setting.png'>
+<img src='https://github.com/geoost/MySQL-installation/blob/main/images/password%20setting.png'>
 
 ### To check the Status of the MySQL 
 
@@ -62,10 +62,10 @@ To install the MySQL security script, enter:
 
     sudo mysql_secure_installation
 
-<img src = 'https://github.com/geoopensource/MySQL-installation-/blob/main/images/mysql_secure_installation.png'>
+<img src = 'https://github.com/geoost/MySQL-installation/blob/main/images/mysql_secure_installation.png'>
 
 ## Step 6: To login MySQL 
 
     mysql -u root -p
 
-<img src='https://github.com/geoopensource/MySQL-installation-/blob/main/images/mysql.png'>
+<img src='https://github.com/geoost/MySQL-installation/blob/main/images/mysql.png'>
